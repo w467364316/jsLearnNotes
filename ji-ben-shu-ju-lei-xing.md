@@ -3,21 +3,19 @@
 * undefined类型只有一个值，一般表示一个变量定义但是没有初始化，那么这个变量的值就是undefined
 
 * typeof的使用
+
   * 对未初始化的变量使用typeof会返回undefined
   * 对于未定义的变量使用typeof也会返回undefined
-
-
 
 # Null类型
 
 * null类型也是只有一个值，一般表示一个空对象指针，所以使用typeof操作时会返回“object”
+
   * 如果定义的变量用于保存对象，那么最好在初始化是设为null，这样就可以知道该变量以后是用于存放对象的
 
 * undefined和null使用 “ ==”对比是，总是返回true
 
   * 虽然这里相等，但是他们的用途是有很大的差别的
-
-
 
 # Boolean类型
 
@@ -32,9 +30,9 @@
     | Number | 任何非零数字值 | 0和NaN |
     | Object | 任何对象 | undefined |
 
-              所以在if中可以直接用于判断
-
-
+    ```
+          所以在if中可以直接用于判断
+    ```
 
 # Number类型
 
@@ -64,7 +62,7 @@
 
 * 使用零个或者多个16为unicode组成
 * 字符字面量
-  * 转义字符串 使用\+符号，比如表示\使用 \\ 
+  * 转义字符串 使用+符号，比如表示\使用 \ 
 * 字符串一旦被创建就不可改变，所以只能使用一个新的字符串填充变量
 * 转化为字符串
   * toString（）方法，基本数据类型都有一个toString方法
@@ -73,6 +71,7 @@
 # Object类型
 
 * 是一个数据和功能的集合，可以通过new操作符跟上要创建的对象类型来创建。
+
   * ```
     //以下两种方式等价
     var o = new Object();
@@ -80,12 +79,13 @@
     ```
 
 * Object是所有对象的基类，每个Object的实例都有以下相同的属性和方法
+
   * constructor  指向实例的构造函数
   * hasOwnProperty\(propertyName\) 判断给定的属性是否在当前实例中
   * isPrototyeIf\(object\) 用于检查传入的对象是否是传入对象的原型
   * propertyIsEnumerable\(propertyName\) 用于检车给定的属性是否可以使用for-in枚举
   * toLocalString（） 返回对象的字符串表示
-  * valuepf\(\) 返回对象的字符串数值或者布尔值表示，通常与toString\(\)方法返回值相同
+  * valueOf\(\) 返回对象的字符串数值或者布尔值表示，通常与toString\(\)方法返回值相同
 
 
 

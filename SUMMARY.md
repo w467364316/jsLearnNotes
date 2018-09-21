@@ -12,4 +12,11 @@
 * 引用类型
   * [Object类型](objectlei-xing.md)
   * [Array类型](arraylei-xing.md)
+  * [Date类型](datelei-xing.md)
+  * [RegExp类型](regexplei-xing.md)
+  * [Function类型](functionlei-xing.md)
+  * [基本包装类型](ji-ben-bao-zhuang-lei-xing.md)
+    * [Boolean类型](ji-ben-bao-zhuang-lei-xing/booleanlei-xing.md)
+    * [Number类型](ji-ben-bao-zhuang-lei-xing/numberlei-xing.md)
+    * [String类型](ji-ben-bao-zhuang-lei-xing/stringlei-xing.md)
 
