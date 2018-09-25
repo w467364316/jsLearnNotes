@@ -19,4 +19,14 @@
     * [Boolean类型](ji-ben-bao-zhuang-lei-xing/booleanlei-xing.md)
     * [Number类型](ji-ben-bao-zhuang-lei-xing/numberlei-xing.md)
     * [String类型](ji-ben-bao-zhuang-lei-xing/stringlei-xing.md)
+  * 单体内置对象
+    * [Global](global.md)
+    * [Math](math.md)
+* 对象的程序设计
+  * [对象的属性](dui-xiang-de-shu-xing.md)
+  * [创建对象](chuang-jian-dui-xiang.md)
+    * [工厂模式](chuang-jian-dui-xiang/gong-chang-mo-shi.md)
+    * [构造函数模式](chuang-jian-dui-xiang/gou-zao-han-shu-mo-shi.md)
+    * [原型模式](chuang-jian-dui-xiang/yuan-xing-mo-shi.md)
+    * 构造函数+原型模式
 
