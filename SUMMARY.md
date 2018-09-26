@@ -22,11 +22,16 @@
   * 单体内置对象
     * [Global](global.md)
     * [Math](math.md)
-* 对象的程序设计
+* [对象的程序设计](dui-xiang-de-cheng-xu-she-ji.md)
   * [对象的属性](dui-xiang-de-shu-xing.md)
   * [创建对象](chuang-jian-dui-xiang.md)
     * [工厂模式](chuang-jian-dui-xiang/gong-chang-mo-shi.md)
     * [构造函数模式](chuang-jian-dui-xiang/gou-zao-han-shu-mo-shi.md)
     * [原型模式](chuang-jian-dui-xiang/yuan-xing-mo-shi.md)
-    * 构造函数+原型模式
+    * [构造函数+原型模式](chuang-jian-dui-xiang/gou-zao-han-6570+-yuan-xing-mo-shi.md)
+    * [动态原型模式](chuang-jian-dui-xiang/dong-tai-yuan-xing-mo-shi.md)
+    * [寄生构造函数模式](chuang-jian-dui-xiang/ji-sheng-gou-zao-han-shu-mo-shi.md)
+    * [稳妥构造函数模式](chuang-jian-dui-xiang/wen-tuo-gou-zao-han-shu-mo-shi.md)
+  * [继承](ji-cheng.md)
+    * [原型链](ji-cheng/yuan-xing-lian.md)
 
