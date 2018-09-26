@@ -34,4 +34,9 @@
     * [稳妥构造函数模式](chuang-jian-dui-xiang/wen-tuo-gou-zao-han-shu-mo-shi.md)
   * [继承](ji-cheng.md)
     * [原型链](ji-cheng/yuan-xing-lian.md)
+    * [借用构造函数](ji-cheng/jie-yong-gou-zao-han-shu.md)
+    * [组合继承](ji-cheng/zu-he-ji-cheng.md)
+    * [原型式继承](ji-cheng/yuan-xing-shi-ji-cheng.md)
+    * [寄生式继承](ji-cheng/ji-sheng-shi-ji-cheng.md)
+    * [寄生组合式继承](ji-cheng/ji-sheng-zu-he-shi-ji-cheng.md)
 
