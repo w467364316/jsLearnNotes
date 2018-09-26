@@ -10,7 +10,7 @@
 * 原型对象默认会有一个contructor属性，一个指向prototype属性所在函数的指针。
 * 使用构造函数创建实例对象之后，实例对象会生成\__proto\__指向函数的原型对象。
 
-isPrototypeOf\(\)  
+isPrototypeOf\(\)
 
 * 原型对象.isPrototype\(实例对象\)  检测原型对象和实例之间是否有对应的关系
 
@@ -40,8 +40,6 @@ Object.getPrototypeOf（实例对象\)
 
 2.2.4 使用Object.getOwnPropertyNames\(\) 可以 获得全部的实例属性，无论属性是否可枚举
 
-
-
 ### 2.3 更加简单的原型对象定义
 
 ```
@@ -56,7 +54,7 @@ Person.prototype = {
 }
 ```
 
-如上代码所示，但是这样写会有一个问题，函数本身产生的原型对象其自动生成的constructor属性本来是指向Person的，但是现在直接将prototype替换成新对象，那么Person.prototype.constructor就会指向新对象的构造函数Object了。
+如上代码所示，但是这样写会有一个问题，函数本身产生的原型对象其自动生成的constructor属性本来是指向Person的，**但是现在直接将prototype替换成新对象，那么Person.prototype.constructor就会指向新对象的构造函数Object了。**
 
 ```js
 Person.prototype = {
@@ -68,7 +66,7 @@ Person.prototype = {
 }
 ```
 
-如上图所以，定一个constructor属性指向Person，但是因为原型对象默认生成的constructor属性是不可枚举的，所以可以使用defineProperty的方法添加contructor属性
+如上图所以，**定一个constructor属性指向Person**，但是因为原型对象默认生成的constructor属性是不可枚举的，所以可以使用defineProperty的方法添加contructor属性
 
 ```
 Object.defineProperty(Person.prototype,'constructor',{
@@ -76,8 +74,6 @@ Object.defineProperty(Person.prototype,'constructor',{
     value: Person
 })
 ```
-
-
 
 ### 2.4 原型的动态性
 
@@ -98,9 +94,9 @@ Object.defineProperty(Person.prototype,'constructor',{
       }
     }
     p.sayName()  error报错
-    
+
     /************************************/
-    
+
     function Person () {
 
     }
@@ -117,15 +113,9 @@ Object.defineProperty(Person.prototype,'constructor',{
 
 ![](/assets/import4.png)
 
-
-
 但是如果是先改写Person.prototype，然后在创建p实例的话，那么此时p实例的proto指向的就是改写的原型对象！
-
-
 
 ### 2.5 原型模式的缺点
 
 因为其共享的性质，对于属性值是变量，而且多个实例对象的该属性值都不一样来说，多个实例对象其中一个修改，其他的实例对象也会跟着变化，这对于需要分开独立管理有冲突。
-
-
 

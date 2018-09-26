@@ -39,4 +39,7 @@
     * [原型式继承](ji-cheng/yuan-xing-shi-ji-cheng.md)
     * [寄生式继承](ji-cheng/ji-sheng-shi-ji-cheng.md)
     * [寄生组合式继承](ji-cheng/ji-sheng-zu-he-shi-ji-cheng.md)
+* [函数表达式](han-shu-biao-da-shi.md)
+  * [递归](han-shu-biao-da-shi/di-gui.md)
+  * [闭包](han-shu-biao-da-shi/bi-bao.md)
 
