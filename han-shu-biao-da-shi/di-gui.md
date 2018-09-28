@@ -13,8 +13,6 @@ function Sum (number) {
 }
 ```
 
-
-
 严格模式下是不能使用脚本访问arguments.callee的，那么可以使用命名表达式来实现
 
 ```
