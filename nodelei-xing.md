@@ -2,12 +2,12 @@
 
 DOM1定义了一个Node接口，该接口由DOM中所有节点类型实现。在js中是作为Node类型实现的。js中所有节点类型都继承自Node类型，因此所有节点类型都共享着相同的基本属性和方法。
 
-
-
 ## Node属性
 
 * nodeType属性， 每一个节点多有一个该属性，表明节点的类型。节点的类型有12种，任何节点类型必居其中之一。
+
   * 一般在判断节点类型的时候，为了兼容IE浏览器，通常将节点的nodeType和数值进行比较。
+
     * ```
       if(someNode.nodeType === Node.ELEMENT_NODE) {
           是元素节点，但是该方法在IE中无效
@@ -17,6 +17,7 @@ DOM1定义了一个Node接口，该接口由DOM中所有节点类型实现。在
           //适用于所有的浏览器
       }
       ```
+
 * nodeName和nodeValue
 
   * 对于元素节点，访问nodeName会返回元素标签名，nodeValue会返回null
@@ -58,7 +59,7 @@ DOM1定义了一个Node接口，该接口由DOM中所有节点类型实现。在
 
   * 如果没有节点的话，那么访问这两个属性返回null
 
-
+* ownerDocument 执行表示整个文档的文档节点 document节点
 
 ## 操作节点的方法
 

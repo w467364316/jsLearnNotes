@@ -75,4 +75,7 @@
 * [DOM](dom.md)
   * [节点层次](dom/jie-dian-ceng-ci.md)
     * [Node类型](nodelei-xing.md)
+    * [Document类型](documentlei-xing.md)
+    * [Element类型](elementlei-xing.md)
+    * [Text类型](textlei-xing.md)
 
