@@ -78,4 +78,10 @@
     * [Document类型](documentlei-xing.md)
     * [Element类型](elementlei-xing.md)
     * [Text类型](textlei-xing.md)
+    * [Comment类型](commentlei-xing.md)
+    * CDATASection类型
+    * DocumentType类型
+    * DocumentFragment类型
+    * [Attr类型](attrlei-xing.md)
+  * DOM操作技术
 
