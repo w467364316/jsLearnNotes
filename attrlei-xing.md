@@ -11,8 +11,6 @@
 * nodeValue值是特性的值
 * parentNode的值为null
 
-
-
 Attr对象具有三个属性，name，value，specified，
 
 * sepcified可以用于筛选指定的特性
@@ -30,9 +28,9 @@ element.getAttribute('align')  // left
 element.attributes['align'].value
 ```
 
-## 注意点 
+## 注意点
 
-*  将创建的特性添加到元素，必须使用元素的setAttibuteNode\(\)方法
+* 将创建的特性添加到元素，必须使用元素的setAttibuteNode\(\)方法
 * 使用element.getAttributeNode\(\) 返回的是特性节点，使用element.getAttribute\['name'\]返回的是特性的值。
 
 

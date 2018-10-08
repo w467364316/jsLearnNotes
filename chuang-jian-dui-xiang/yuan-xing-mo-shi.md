@@ -25,7 +25,7 @@ Object.getPrototypeOf（实例对象\)
 
 关于实例对象的constructor指向其构造函数的问题
 
-* 因为原型对象初始化时就会有一个constructor属性指向包含自身指针的函数，那么使用实例对象.constructor时，就会在对应的原型对象中搜寻constructor
+* 因为原型对象初始化时就会有一个constructor属性指向包含自身指针的函数，那么使用实例对象.constructor时，就会在对应的原型对象中搜寻constructor，进而找到实例对象的构造函数
 
 ### 2.2 对象实例可以访问原型的属性，但是不能修改原型中属性的值
 

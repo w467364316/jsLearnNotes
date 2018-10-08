@@ -3,9 +3,9 @@
 使用location对象有很多方式改变浏览器的位置
 
 * assign\(\) 方法，传递一个URL值
-  * location.assign\('http://www.baidu.com'\)
+  * location.assign\('[http://www.baidu.com'\](http://www.baidu.com'\)\)
   * 打开新的URL并在浏览器的历史记录中生成一条记录。
-  * 如果是直接调用location.href = 'http://xxx.xxx.xxx'或者window.location='http://xxx.xxx.xxx'，也会以改值调用assign\(\)方法。
+  * 如果是直接调用location.href = '[http://xxx.xxx.xxx'或者window.location='http://xxx.xxx.xxx'，也会以该值调用assign\(\)方法。](http://xxx.xxx.xxx'或者window.location='http://xxx.xxx.xxx'，也会以改值调用assign%28%29方法。)
   * 通常使用的比较多的是location.href
 * 修改location的其他属性也可以改变当前记载的页面。
   * 比如hash,search,hostname,pathname等

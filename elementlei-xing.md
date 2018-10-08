@@ -27,8 +27,6 @@ if (element.tagName.toLowerCase() === 'div') {
 }
 ```
 
-
-
 ## 1 HTML元素
 
 所有的HTML元素都是有HTMLElement类型表示或者它的子类表示。继承了Element类型并添加了一系列方法。添加的属性分别对应为每一个HTML元素中都存在的下列特性：
@@ -41,8 +39,6 @@ if (element.tagName.toLowerCase() === 'div') {
 
 以上的特性都可以用来获取或者修改相应特性的值。
 
-
-
 ## 2 获取特性
 
 操作特性的方法主要有三个
@@ -54,7 +50,7 @@ if (element.tagName.toLowerCase() === 'div') {
 ### 2.1 getAttribute\(\)
 
 * 传递给该方法的参数需要和元素的特性名一样，给定的特性不存在，则会返回null
-* 通过该方法也可以去的自定义的特性。
+* 通过该方法也可以获取自定义的特性。
 * 特性的名称是不区分大小的，而且H5中自定义特性应该加上data-前缀以便于验证
 
 2.1.1 元素的所有特性，也都可以通过DOM元素本身的属性类访问。HTMLElement也会有5个属性与相应的特性一一对应。 **但是**，**只有公认的特性才会以属性的形式添加到DOM对象中**。
@@ -67,8 +63,6 @@ if (element.tagName.toLowerCase() === 'div') {
 * onclick这样的时间处理程序，在元素上使用时，onclick等包含的是js代码。如果通过getAttri方法获取会返回对应代码的的字符串。但是属性的形式.onclick形式访问返回的是一个js函数。
 
 所以一般不适用getAttribute来获取，而是使用对象的属性获取特性。
-
-
 
 ### 2.2 设置特性 setAttribute\(\)
 
@@ -88,17 +82,11 @@ console.log(div.getAttribute('id')) //top
 console.log(div.getAttibute('my_color')) //null 自动的特性不能通过对象属性的形式设置
 ```
 
-
-
 * 但是自定义属性在IE中会被当做元素的特性
-
-
 
 ### 2.3 removeAttribute\(\)
 
 彻底删除元素的特性。不常用，但是在序列化DOM元素时，可以用来指定要包含哪些特性
-
-
 
 ## 3 attributes属性
 
@@ -107,6 +95,7 @@ attributes属性中包含一个NamedNodeMap，与NodeList类似，也是一个�
 * getNamedItem\(name\)：返回nodeName属性等于name的节
 * setNamedItem\(node\): 传入一个特性节点，添加到NamedNodeMap
 * removeNamedItem\(name\)  移除nodeName为name的节点
+
   * 返回值为移除的特性节点
 
 * item\(pos\): 返回位于数字pos位置的节点
@@ -119,8 +108,6 @@ attr节点的属性：
 
 一般在遍历元素特性时，使用该方法可以有效地得到特性字符串
 
-
-
 ## 4 创建元素
 
 使用document.createElement（）创建元素，参数可以为标签名或者直接传入一个字符串表示的标签
@@ -129,8 +116,6 @@ attr节点的属性：
 document.createElement('div')
 document.createElemnet('<div clas=\'app\'></>')
 ```
-
-
 
 ## 5 元素的子节点
 
@@ -150,17 +135,5 @@ console.log(ul.childNodes.length)
 
 因此最好遍历是，对节点的nodeType进行判断，然后在执行某些操作
 
-
-
-如果想通过某个特性的标签名去的子节点或者后代节点时。元素可以向document一样，调用getElementById和byTabName这些方法。
-
-
-
-
-
-
-
-
-
-
+如果想通过某个特性的标签名去获取他的子节点或者后代节点时。元素可以向document一样，调用getElementById和byTabName这些方法。
 

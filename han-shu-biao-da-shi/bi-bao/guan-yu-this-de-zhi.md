@@ -14,8 +14,6 @@ var object = {
 alert(object.getNameFunc()()); //"The Window"(在非严格模式下)
 ```
 
-
-
 稍微修改如下：
 
 ```

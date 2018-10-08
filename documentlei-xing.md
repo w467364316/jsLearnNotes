@@ -12,7 +12,7 @@ Document节点具有下列特征：
 
 ## 文档的子节点
 
-* document.documentElement获取&lt;html&gt;元素或者通过document,childNodes\[0\]访问html元素
+* document.documentElement获取&lt;html&gt;元素或者通过document.childNodes\[0\]访问html元素
 * document.body获取body元素
 * document还有一个可能的子节点为DocumentType，通常将&lt;!DOCTYPE&gt;标签看成一个与文档其他部分不同的实体。可以通过doctype属性访问它的信息。
   * 因为不同的浏览器对于doctype的解析不相同，所以该属性很少使用。
@@ -27,7 +27,7 @@ Document节点具有下列特征：
   * 修改titled额值不会改变&lt;title&gt;元素
 * URL 表示完整的URL
 * domin表示URL中的域名
-  * 
+  \* 
 * referrer 来源网页的URL
 
 ## 查找元素
@@ -36,10 +36,12 @@ Document节点具有下列特征：
   * 需要大小写严格区分，IE8以及较低版本不会区分大小写
   * 如果页面中多个ID值一样的元素，那么该方法只会返回第一次出现的元素。
 * getElementByTagName\(\) 接收元素的标签名
+
   * 返回一个类似NodeList的对象，为HTMLCollection对象，
+
     * 与NodeList对象类似的也可以使用item\(index\)和【index】访问具体的项
     * 通过length获取数据项的数量
-    * nameItem\(\) 使用这个方法可以通过元素的name特性去的集合中的项。
+    * nameItem\(\) 使用这个方法可以通过元素的name特性去获取集合中的项。
     * HTMLCollection还支持使用按名称访问项
     * ```
       <img name='myImage'/>
@@ -48,6 +50,7 @@ Document节点具有下列特征：
       ```
 
       方括号中传入数值会默认调用item\(index\)方法，传入字符串会默认调用nameItem\(\)方法
+
 * 要获取文档中的全部元素，可以调用document.getElement\('\*'\)获取文档中全部的元素。
 
 * getElementByName\(\) 返回带有给定name特性的所有元素。常用的是使用该方法取得单选按钮
@@ -59,8 +62,6 @@ Document节点具有下列特征：
 * .forms 获取文中全部的form
 * images 获取文档中全部的img元素
 * links获取文档中全部的带href特性的a元素
-
-
 
 ### DOM一致性检测
 
@@ -86,8 +87,6 @@ document.write ,writen,open,close 四个方法
       </script>
       ```
   * 等到页面全部加载完成之后，在调用write方法，会重写整个页面内容
-
-
 
 
 

@@ -44,11 +44,11 @@ instance.constructor--&gt;new SuperType\(\).constructor--&gt;SuperType
 
 ## 2 默认原型
 
-所有函数的默认原型都是Object的实例，所以默认原型中都包含一个指针proto指向Object.prototype。这要是所有自定义类型都会继承toString（）等方法的原因。
+所有函数的默认原型都是Object的实例，所以默认原型中都包含一个指针proto指向Object.prototype。这就是所有自定义类型都会继承toString（）等方法的原因。
 
 ![](/assets/import7.png)
 
-## 3 子类型在重写超类型的某个方法是，或者添加超类型中不存在的某个方法，添加方法的代码一定要放在替换原型的语句之后。
+## 3 子类型在重写超类型的某个方法时，或者添加超类型中不存在的某个方法，添加方法的代码一定要放在替换原型的语句之后。
 
 ## 4 原型链的问题
 

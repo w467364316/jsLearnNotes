@@ -9,6 +9,7 @@ console.log(this.age)  // 29
 ```
 
 * 定义的全局变量不能通过delete删除，但是直接在window对象定义的变量属性能够使用delete删除
+
   * ```
     var age = 29;
     window.color = 'red'
@@ -18,7 +19,8 @@ console.log(this.age)  // 29
     ```
 
     因为直接定义的全局变量属性，它的\[\[configurable\]\]特性为false，所以不能使用delete删除
-* 尝试访问未生命的变量会抛出错误，但是如果直接使用window对象查询，可以知道某个可能未声明的变量是否存在
+
+* 尝试访问未声明的变量会抛出错误，但是如果直接使用window对象查询，可以知道某个可能未声明的变量是否存在
 
   * ```
     var newValue = oldValue  //报错
