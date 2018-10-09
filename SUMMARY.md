@@ -107,4 +107,6 @@
   * DOM变化
   * [样式变化](yang-shi-bian-hua.md)
     * [访问元素样式](yang-shi-bian-hua/fang-wen-yuan-su-yang-shi.md)
+    * [操作样式表](yang-shi-bian-hua/cao-zuo-yang-shi-biao.md)
+    * [元素大小](yang-shi-bian-hua/yuan-su-da-xiao.md)
 
