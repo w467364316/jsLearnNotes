@@ -125,4 +125,13 @@
     * [跨浏览器的事件对象](shi-jian/kua-liu-lan-qi-de-shi-jian-dui-xiang.md)
   * [事件类型](shi-jian/shi-jian-lei-xing.md)
     * [UI事件](shi-jian/shi-jian-lei-xing/uishi-jian.md)
+    * [焦点事件](shi-jian/shi-jian-lei-xing/jiao-dian-shi-jian.md)
+    * [鼠标滚轮事件](shi-jian/shi-jian-lei-xing/shu-biao-gun-lun-shi-jian.md)
+    * [键盘与文本事件（不熟练）](shi-jian/shi-jian-lei-xing/jian-pan-shi-jian.md)
+    * 复合事件
+    * [变动事件](shi-jian/shi-jian-lei-xing/bian-dong-shi-jian.md)
+    * [HTML5事件](shi-jian/shi-jian-lei-xing/html5shi-jian.md)
+    * [设备事件](shi-jian/shi-jian-lei-xing/she-bei-shi-jian.md)
+    * [触摸与手势事件](shi-jian/shi-jian-lei-xing/hong-mo-yu-shou-shi-shi-jian.md)
+  * 内存和性能
 
