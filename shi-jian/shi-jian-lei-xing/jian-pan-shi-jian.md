@@ -14,13 +14,13 @@ event对象的keyCode属性
 
 event对象的charCode属性，只有在发生keypress事件时才会包含值。
 
-
-
 ## 3 DOM3级变化
 
 DOM3级变化不在包含charCode属性，增加了key和char属性。
 
+key: 在按下字符按键时，key的值为相应的文本字符。非字符按键时，key的值是相应键的名。
 
+char: 再按下字符按键时，和key的值一样，非字符键值为null
 
 ## 4 textInput事件
 

@@ -4,7 +4,7 @@
 2. 如果是使用**attachEvent**创建的，那么会有一个**event**对象作为参数被传入事件处理程序。
 3. 如果是通过HTML特性指定的事件处理程序，那么可以通过一个event的变量访问event
 
-因为IE中使用的this和DOM中的不一样，所以最好使用event.srcElement比较保险。
+因为IE中使用的this和DOM中的不一样，所以最好使用**event.srcElement**比较保险。
 
 ```
 var btn = document.querySelector('#btn')
