@@ -155,5 +155,6 @@
     * [移除选项](xuan-ze-kuang-jiao-ben/yi-chu-xuan-xiang.md)
     * [移除和重排选项](xuan-ze-kuang-jiao-ben/yi-chu-he-zhong-pai-xuan-xiang.md)
   * [表单序列化](biao-dan-xu-lie-hua.md)
-  * 富文本编辑
+  * [富文本编辑\(不熟练\)](fu-wen-ben-bian-ji.md)
+* [Canvas](canvas.md)
 
