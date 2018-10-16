@@ -157,4 +157,32 @@
   * [表单序列化](biao-dan-xu-lie-hua.md)
   * [富文本编辑\(不熟练\)](fu-wen-ben-bian-ji.md)
 * [Canvas](canvas.md)
+  * [填充，描边 矩形 路径等等（笔记未完）](canvas/tian-chong-ff0c-miao-bian-ju-xing-lu-jing-deng-deng.md)
+* HTML5脚本编程
+  * 跨文档消息传递
+  * [原生拖放](yuan-sheng-tuo-fang.md)
+  * [媒体元素](mei-ti-yuan-su.md)
+* 错误处理与调试
+  * [错误处理](cuo-wu-chu-li.md)
+    * [抛出错误](cuo-wu-chu-li/pao-chu-cuo-wu.md)
+    * [错误error事件](cuo-wu-chu-li/cuo-wu-error-shi-jian.md)
+    * [常见的错误类型](cuo-wu-chu-li/chang-jian-de-cuo-wu-lei-xing.md)
+    * [致命非致命错误和错误上传](cuo-wu-chu-li/zhi-ming-fei-zhi-ming-cuo-wu-he-cuo-wu-shang-chuan.md)
+  * [调试技术](diao-shi-ji-zhu.md)
+* JavaScript与XML
+  * [浏览器对XML DOM的支持](liu-lan-qi-dui-xml-dom-de-zhi-chi.md)
+    * [DOM2级核心](liu-lan-qi-dui-xml-dom-de-zhi-chi/dom2ji-he-xin.md)
+    * [DOMParser类型](liu-lan-qi-dui-xml-dom-de-zhi-chi/domparserlei-xing.md)
+    * [XMLSerializer](liu-lan-qi-dui-xml-dom-de-zhi-chi/xmlserializer.md)
+    * [IE8以及之前版本的XML](liu-lan-qi-dui-xml-dom-de-zhi-chi/ie8yi-ji-zhi-qian-ban-ben-de-xml.md)
+    * [跨浏览器处理XML](liu-lan-qi-dui-xml-dom-de-zhi-chi/kua-liu-lan-qi-chu-li-xml.md)
+* E4X
+* JSON
+  * [语法](yu-fa.md)
+  * [解析和序列化](jie-xi-he-xu-lie-hua.md)
+* Ajax与Comet
+* 高级技巧
+* 离线应用于客户端存储
+* 最佳实践
+* 新兴的API
 
