@@ -181,6 +181,11 @@
   * [语法](yu-fa.md)
   * [解析和序列化](jie-xi-he-xu-lie-hua.md)
 * Ajax与Comet
+  * [XMLHttpRequest](xmlhttprequest.md)
+    * [XMR的用法](xmlhttprequest/xmrde-yong-fa.md)
+    * [XMLHttpRequest 2级](xmlhttprequest/xmlhttprequest-2ji.md)
+    * [进度事件](xmlhttprequest/jin-du-shi-jian.md)
+    * [跨资源共享](xmlhttprequest/kua-zi-yuan-gong-xiang.md)
 * 高级技巧
 * 离线应用于客户端存储
 * 最佳实践
