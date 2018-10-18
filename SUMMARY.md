@@ -186,7 +186,24 @@
     * [XMLHttpRequest 2级](xmlhttprequest/xmlhttprequest-2ji.md)
     * [进度事件](xmlhttprequest/jin-du-shi-jian.md)
     * [跨资源共享](xmlhttprequest/kua-zi-yuan-gong-xiang.md)
+  * [其他跨域技术](qi-ta-kua-yu-ji-zhu.md)
+    * [图像ping](qi-ta-kua-yu-ji-zhu/tu-xiang-ping.md)
+    * [JSONP](qi-ta-kua-yu-ji-zhu/jsonp.md)
+    * [Comet方式](qi-ta-kua-yu-ji-zhu/cometfang-shi.md)
+    * [服务器发送事件](qi-ta-kua-yu-ji-zhu/fu-wu-qi-fa-song-shi-jian.md)
+    * [Web Sockets](qi-ta-kua-yu-ji-zhu/web-sockets.md)
 * 高级技巧
+  * 高级技巧
+    * [安全的类型检测](an-quan-de-lei-xing-jian-ce.md)
+    * [作用域安全的构造函数](zuo-yong-yu-an-quan-de-gou-zao-han-shu.md)
+    * [惰性载入函数](duo-xing-zai-ru-han-shu.md)
+    * [函数绑定](han-shu-bang-ding.md)
+    * [函数柯里化](han-shu-ke-li-hua.md)
+  * [防篡改对象](fang-cuan-gai-dui-xiang.md)
+  * [高级定时器](gao-ji-ding-shi-qi.md)
+    * [重复的定时器](gao-ji-ding-shi-qi/zhong-fu-de-ding-shi-qi.md)
+    * [yielding processes](gao-ji-ding-shi-qi/yielding-processes.md)
+    * [函数节流](gao-ji-ding-shi-qi/han-shu-jie-liu.md)
 * 离线应用于客户端存储
 * 最佳实践
 * 新兴的API
