@@ -204,7 +204,13 @@
     * [重复的定时器](gao-ji-ding-shi-qi/zhong-fu-de-ding-shi-qi.md)
     * [yielding processes](gao-ji-ding-shi-qi/yielding-processes.md)
     * [函数节流](gao-ji-ding-shi-qi/han-shu-jie-liu.md)
+  * [自定义事件](zi-ding-yi-shi-jian.md)
+  * [拖放](tuo-fang.md)
 * 离线应用于客户端存储
+  * [离线检测和应用缓存](li-xian-jian-ce-he-ying-yong-huan-cun.md)
+  * 数据缓存
+    * [Cookie](cookie.md)
+    * [Web Storage](web-storage.md)
 * 最佳实践
 * 新兴的API
 
