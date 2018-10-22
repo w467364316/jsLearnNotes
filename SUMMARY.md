@@ -213,4 +213,8 @@
     * [Web Storage](web-storage.md)
 * 最佳实践
 * 新兴的API
+* 附录：ECMAScript Harmony
+  * [一般性变化](chang-liang.md)
+  * [函数的变化](han-shu-de-bian-hua.md)
+  * [数组和其他结构](shu-zu-he-qi-ta-jie-gou.md)
 
