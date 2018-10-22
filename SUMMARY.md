@@ -9,7 +9,7 @@
   * [基本类型和引用类型](bian-liang-ff0c-zuo-yong-yu-he-nei-cun-wen-ti/ji-ben-lei-xing-he-yin-yong-lei-xing.md)
   * [执行环境和作用域](bian-liang-ff0c-zuo-yong-yu-he-nei-cun-wen-ti/zhi-xing-huan-jing-he-zuo-yong-yu.md)
   * [垃圾收集机制](bian-liang-ff0c-zuo-yong-yu-he-nei-cun-wen-ti/la-ji-shou-ji-ji-zhi.md)
-* 引用类型
+* [引用类型](yin-yong-lei-xing.md)
   * [Object类型](objectlei-xing.md)
   * [Array类型](arraylei-xing.md)
   * [Date类型](datelei-xing.md)
