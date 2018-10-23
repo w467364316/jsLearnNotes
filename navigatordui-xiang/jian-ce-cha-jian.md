@@ -5,8 +5,6 @@
 * filename : 插件的文件名
 * length: 插件所处理的MIME类型数量
 
-
-
 针对非IE的其他浏览器，可以使用plugins集合中是否有name匹配来检测插件
 
 ```
@@ -35,9 +33,5 @@ function hasIEPlugin(name) {
 }
 ```
 
-
-
 最好的解决方法应该是将两种方法结合起来使用![](/assets/import10.png)
-
-
 

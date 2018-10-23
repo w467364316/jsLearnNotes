@@ -71,7 +71,7 @@ if (element.tagName.toLowerCase() === 'div') {
 * 如果特性已经存在，则覆盖
 * 如果特性感不存在，则添加上
 
-对于公认的特性来说，也可以直接通过对象的属性来设置，但是自定的特性不能通过属性的形式来设置，只能通过setAttr的形式设定。
+对于公认的特性来说，也可以直接通过对象的属性来设置，**但是自定的特性不能通过属性的形式来设置，只能通过setAttr的形式设定**。
 
 ```
 var div = document.getElementByTagName('div')[0]

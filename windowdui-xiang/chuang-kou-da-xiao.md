@@ -4,7 +4,7 @@
 
 ## 页面视口大小
 
-众多浏览器都提供了 document.documentElement.clientHeight和document.documentElement.clientWidth来获取页面视口的大小。但是对于IE6，在混杂模式下，必须通过document.body.clientWidth和Height来获取，因此可以如下方法表示：
+**众多浏览器都提供了 document.documentElement.clientHeight和document.documentElement.clientWidth来获取页面视口的大小。**但是对于IE6，在混杂模式下，必须通过document.body.clientWidth和Height来获取，因此可以如下方法表示：
 
 ```js
  var pageWidth = window.innerWidth,

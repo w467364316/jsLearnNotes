@@ -80,12 +80,12 @@
     * [Text类型](textlei-xing.md)
     * [Comment类型](commentlei-xing.md)
     * [CDATASection类型](cdatasectionlei-xing.md)
-    * DocumentType类型
+    * [DocumentType类型](documenttypelei-xing.md)
     * DocumentFragment类型
     * [Attr类型](attrlei-xing.md)
   * [DOM操作技术](dom/domcao-zuo-ji-zhu.md)
-    * 动态脚本
-    * 动态样式
+    * [动态脚本](dom/domcao-zuo-ji-zhu/dong-tai-jiao-ben.md)
+    * [动态样式](dom/domcao-zuo-ji-zhu/dong-tai-yang-shi.md)
     * [操作表格](dom/domcao-zuo-ji-zhu/cao-zuo-biao-ge.md)
     * [使用NodeList](dom/domcao-zuo-ji-zhu/shi-yong-nodelist.md)
 * [DOM扩展](domkuo-zhan.md)
@@ -109,8 +109,8 @@
     * [访问元素样式](yang-shi-bian-hua/fang-wen-yuan-su-yang-shi.md)
     * [操作样式表](yang-shi-bian-hua/cao-zuo-yang-shi-biao.md)
     * [元素大小](yang-shi-bian-hua/yuan-su-da-xiao.md)
-  * 遍历
-  * 范围
+  * [遍历](bian-li.md)
+  * [范围](fan-wei.md)
 * [事件](shi-jian.md)
   * [事件流](shi-jian/shi-jian-liu.md)
   * [事件处理程序](shi-jian/shi-jian-chu-li-cheng-xu.md)
@@ -139,7 +139,7 @@
   * [模拟事件](shi-jian/mo-ni-shi-jian.md)
     * [DOM中的事件模拟](shi-jian/mo-ni-shi-jian/domzhong-de-shi-jian-mo-ni.md)
     * [IE上事件模拟](shi-jian/mo-ni-shi-jian/ieshang-shi-jian-mo-ni.md)
-* 表单脚本
+* [表单脚本](biao-dan-jiao-ben.md)
   * [表单的基本知识](biao-dan-de-ji-ben-zhi-shi.md)
     * [提交表单](ti-jiao-biao-dan.md)
     * [重置表单](zhong-zhi-biao-dan.md)
@@ -213,7 +213,7 @@
     * [Web Storage](web-storage.md)
 * 最佳实践
 * 新兴的API
-* 附录：ECMAScript Harmony
+* [附录：ECMAScript Harmony](fu-lu-ff1a-ecmascript-harmony.md)
   * [一般性变化](chang-liang.md)
   * [函数的变化](han-shu-de-bian-hua.md)
   * [数组和其他结构](shu-zu-he-qi-ta-jie-gou.md)
