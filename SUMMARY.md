@@ -159,7 +159,7 @@
 * [Canvas](canvas.md)
   * [填充，描边 矩形 路径等等（笔记未完）](canvas/tian-chong-ff0c-miao-bian-ju-xing-lu-jing-deng-deng.md)
 * HTML5脚本编程
-  * 跨文档消息传递
+  * [跨文档消息传递](kua-wen-dang-xiao-xi-chuan-di.md)
   * [原生拖放](yuan-sheng-tuo-fang.md)
   * [媒体元素](mei-ti-yuan-su.md)
 * 错误处理与调试
@@ -177,10 +177,10 @@
     * [IE8以及之前版本的XML](liu-lan-qi-dui-xml-dom-de-zhi-chi/ie8yi-ji-zhi-qian-ban-ben-de-xml.md)
     * [跨浏览器处理XML](liu-lan-qi-dui-xml-dom-de-zhi-chi/kua-liu-lan-qi-chu-li-xml.md)
 * E4X
-* JSON
+* [JSON](json.md)
   * [语法](yu-fa.md)
   * [解析和序列化](jie-xi-he-xu-lie-hua.md)
-* Ajax与Comet
+* [Ajax与Comet](ajaxyu-comet.md)
   * [XMLHttpRequest](xmlhttprequest.md)
     * [XMR的用法](xmlhttprequest/xmrde-yong-fa.md)
     * [XMLHttpRequest 2级](xmlhttprequest/xmlhttprequest-2ji.md)
@@ -193,7 +193,7 @@
     * [服务器发送事件](qi-ta-kua-yu-ji-zhu/fu-wu-qi-fa-song-shi-jian.md)
     * [Web Sockets](qi-ta-kua-yu-ji-zhu/web-sockets.md)
 * 高级技巧
-  * 高级技巧
+  * [高级技巧](gao-ji-ji-qiao.md)
     * [安全的类型检测](an-quan-de-lei-xing-jian-ce.md)
     * [作用域安全的构造函数](zuo-yong-yu-an-quan-de-gou-zao-han-shu.md)
     * [惰性载入函数](duo-xing-zai-ru-han-shu.md)

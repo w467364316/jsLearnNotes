@@ -9,8 +9,6 @@
 <input type='text' size='25' maxlength='50' value='simple value' />
 ```
 
-
-
 ## textarea元素
 
 * 使用row指定字符显示的行数，使用cols特性指定一行显示多少个字符。
@@ -21,8 +19,6 @@
 ```
 <textarea rows='5' cols='5'>simple value</textarea>
 ```
-
-
 
 
 

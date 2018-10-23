@@ -11,7 +11,7 @@ document.body.insertBefore(script, document.body.firstChild);
 缺点为：
 
 * 从其他域中访问，不是很安全
-* 判断jsonp是否失败不同意。
+* 判断jsonp是否失败不容易。
 
 
 

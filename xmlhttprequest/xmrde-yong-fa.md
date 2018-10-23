@@ -34,5 +34,5 @@ get请求的请求参数直接跟在url后面，第一个参数和url以？链�
 
 post请求的主体是通过send\(\)方法发送，跟get的直接拼接在url后面不一样。
 
-服务器一般对POST请求和提交web表单的请求不会一视同仁，那么可以将HTTP头部信息之中的Contet-type设置为'application/x-www-form-urencoded'表示提交时的内容类型是表单类型，那么在服务器端就可以通诸如$\_post的形式来获取相应的参数。
+服务器一般对POST请求和提交web表单的请求不会一视同仁，那么可以将HTTP头部信息之中的Contet-type设置为'application/x-www-form-urlencoded'表示提交时的内容类型是表单类型，那么在服务器端就可以通诸如$\_post的形式来获取相应的参数。
 

@@ -23,7 +23,7 @@ var jsonText = JSON.stringify(obj,function(key,value){
 
 **toJSON方法**
 
-可以在 对象中定义toJSON方法，那么在序列化是，就会返回toJSON方法的值。
+可以在 对象中定义toJSON方法，那么在序列化时，就会返回toJSON方法的值。
 
 序列化的顺序：
 

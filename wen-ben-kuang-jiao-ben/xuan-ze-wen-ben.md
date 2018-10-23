@@ -42,5 +42,5 @@ function getSelectedText (textbox) {
     range.select();
     ```
 
-**要选择文本后看到 效果，必须让文本框获取焦点，所以可以在后面调用focus\(\)方法。**
+**要选择文本后看到 效果，必须让文本框获取焦点，所以可以在后面或者前面调用focus\(\)方法。**
 
